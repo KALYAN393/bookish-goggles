@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+    <section class="showcase">
+    <header>
+      <h2 class="logo">Travel</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="Pexels_Videos_2169880_SparkVideo_SparkVideo.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Never Stop  </h2>
+      <h3>Exploring The World</h3>
+      <p>Earth is a beautiful piece of art created by God.Exploring this piece of art brings lot of satisfaction as a human beings.God's art of creation
+      is divided into three pieces Land,water and sky.Exploring these pieces around the World is the goal. </p>
+      <a href="#">Explore</a>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu" >
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Destination</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  <script>
+    const menuToggle = document.querySelector('.toggle');
+   const showcase = document.querySelector('.showcase');
+
+   menuToggle.addEventListener('click', () => {
+     menuToggle.classList.toggle('active');
+     showcase.classList.toggle('active');
+   })
+
+  </script>
+
+  </body>
+</html>
